@@ -10,14 +10,14 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Send in 60 Seconds"/>
   <Description DefaultValue="Schedule an outgoing email for delivery one minute later."/>
-  <IconUrl DefaultValue="https://YOUR-HTTPS-HOST.example/send-in-60/assets/icon-32.png"/>
-  <HighResolutionIconUrl DefaultValue="https://YOUR-HTTPS-HOST.example/send-in-60/assets/icon-80.png"/>
-  <SupportUrl DefaultValue="https://YOUR-HTTPS-HOST.example/send-in-60/commands.html"/>
-  <AppDomains><AppDomain>https://YOUR-HTTPS-HOST.example</AppDomain></AppDomains>
+  <IconUrl DefaultValue="https://dagalakisgeo.github.io/send-in-60/assets/icon-32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://dagalakisgeo.github.io/send-in-60/assets/icon-80.png"/>
+  <SupportUrl DefaultValue="https://dagalakisgeo.github.io/send-in-60/commands.html"/>
+  <AppDomains><AppDomain>https://dagalakisgeo.github.io</AppDomain></AppDomains>
   <Hosts><Host Name="Mailbox"/></Hosts>
   <Requirements><Sets><Set Name="Mailbox" MinVersion="1.15"/></Sets></Requirements>
   <FormSettings>
-    <Form xsi:type="ItemEdit"><DesktopSettings><SourceLocation DefaultValue="https://YOUR-HTTPS-HOST.example/send-in-60/commands.html"/></DesktopSettings></Form>
+    <Form xsi:type="ItemEdit"><DesktopSettings><SourceLocation DefaultValue="https://dagalakisgeo.github.io/send-in-60/commands.html"/></DesktopSettings></Form>
   </FormSettings>
   <Permissions>ReadWriteMailbox</Permissions>
   <Rule xsi:type="RuleCollection" Mode="Or"><Rule xsi:type="ItemIs" ItemType="Message" FormType="Edit"/></Rule>
@@ -40,11 +40,11 @@
     </DesktopFormFactor></Host></Hosts>
     <Resources>
       <bt:Images>
-        <bt:Image id="Icon.16" DefaultValue="https://YOUR-HTTPS-HOST.example/send-in-60/assets/icon-16.png"/>
-        <bt:Image id="Icon.32" DefaultValue="https://YOUR-HTTPS-HOST.example/send-in-60/assets/icon-32.png"/>
-        <bt:Image id="Icon.80" DefaultValue="https://YOUR-HTTPS-HOST.example/send-in-60/assets/icon-80.png"/>
+        <bt:Image id="Icon.16" DefaultValue="https://dagalakisgeo.github.io/send-in-60/assets/icon-16.png"/>
+        <bt:Image id="Icon.32" DefaultValue="https://dagalakisgeo.github.io/send-in-60/assets/icon-32.png"/>
+        <bt:Image id="Icon.80" DefaultValue="https://dagalakisgeo.github.io/send-in-60/assets/icon-80.png"/>
       </bt:Images>
-      <bt:Urls><bt:Url id="Commands.Url" DefaultValue="https://YOUR-HTTPS-HOST.example/send-in-60/commands.html"/></bt:Urls>
+      <bt:Urls><bt:Url id="Commands.Url" DefaultValue="https://dagalakisgeo.github.io/send-in-60/commands.html"/></bt:Urls>
       <bt:ShortStrings>
         <bt:String id="Group.Label" DefaultValue="Delayed Send"/>
         <bt:String id="Button.Label" DefaultValue="Send in 60 Seconds"/>
